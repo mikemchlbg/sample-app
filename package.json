@@ -1,7 +1,6 @@
 {
   "name": "myapp",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +9,16 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3",
+    "mysql2": "^2.3.3",
     "sequelize": "^6.17.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikemchlbg/sample-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mikemchlbg/sample-app/issues"
+  },
+  "homepage": "https://github.com/mikemchlbg/sample-app#readme",
+  "description": ""
 }

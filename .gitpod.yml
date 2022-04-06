@@ -5,8 +5,12 @@ image:
 tasks:
   - init: echo 'init script' # runs during prebuild
     command: echo 'start script'
+  - init: npm install
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
   - port: 3000
     onOpen: open-preview
+  - port: 4000
+    visibility: public
+    onOpen: open-browser
